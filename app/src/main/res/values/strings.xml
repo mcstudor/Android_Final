@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MStudorProjectile</string>
+    <string name="about_string">About</string>
+    <string-array name="shapes">
+        <item name="cannonBall">Cannon Ball</item>
+        <item name="pumpkin">Pumpkin</item>
+        <item name="golfBall">Golf Ball</item>
+    </string-array>
+
+    <string-array name="shape_values">
+        <item name="cannonBall">0</item>
+        <item name="pumpkin">1</item>
+        <item name="golfBall">2</item>
+    </string-array>
+
+
+    //default values
+    <string name="prox_default">5</string>
+    <string name="item_default">0</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

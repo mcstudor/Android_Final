@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="5"
+        android:inputType="number"
+        android:key="PROXIMITY"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/prox_default"
+        android:title="Target proximity for hit (1-5m)" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/shapes"
+        android:entryValues="@array/shape_values"
+        android:key="ITEM"
+        android:summary="%s"
+        android:title="Item Fired" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="AIR"
+        android:summaryOff="No, we don't like to be accurate"
+        android:summaryOn="Yes, we like to be accurate"
+        android:title="Model Air Resistance?" />
+
+</PreferenceScreen>
